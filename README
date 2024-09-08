@@ -2,7 +2,8 @@
 
 
 ## Why
-I was using Cowrie, but get blocked by a bizarre issue. All recording from outside my local net were empty. The hash which serve as a filename was those of a empty byte string.
+I was using Cowrie, but get blocked by a bizarre issue. All recording from outside my local net were empty. 
+The hash which serve as a filename was the hash of a empty byte string. So I wrote this SSH shell recorder.
 
 ## How
 In the sshd_config, point "honeypotSsh" using "ForceCommand" directive.
